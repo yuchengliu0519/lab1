@@ -1,0 +1,66 @@
+Script started on 2019年03月 2日 上午 10:49:24
+]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ whoami"[K; pa[K[K[Kpwd
+user
+/home/user
+]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ git config -l
+[?1h=user.name=yuchengliu0519[m
+user.email=sliu5386@gmail.com[m
+[K[?1l>]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ git clone https://github.com/<yuchg[Kengliu0519>/lab1.git
+bash: yuchengliu0519: No such file or directory
+]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ git clone https://github [Kco[K[K.com/ph54769/test.t[Kgit
+Cloning into 'test'...
+Username for 'https://github.com': 
+Password for 'https://yuchengliu0519@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/ph54769/test.git/' not found
+]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ mkdir my_proj
+]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ ck[Kd my_proj
+]0;~/my_proj
+[32muser@LAPTOP-LF0O0LGH [33m~/my_proj[0m
+$ git int[Kit
+Initialized empty Git repository in /home/user/my_proj/.git/
+]0;~/my_proj
+[32muser@LAPTOP-LF0O0LGH [33m~/my_proj[0m
+$ [H[2J]0;~/my_proj
+[32muser@LAPTOP-LF0O0LGH [33m~/my_proj[0m
+$ ck /[K[K[K[Kck[Kd ..
+]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ git clone https:// [Kgithub.o[Ko[Kcom/<lab1>/lab1.git
+bash: lab1: No such file or directory
+]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ ^C
+]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ git  c[K[Kclone https://github.com/yuchg[Kengliu0519/lab.git
+Cloning into 'lab'...
+Username for 'https://github.com': 
+Password for 'https://f130857273f130857273@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/yuchengliu0519/lab.git/'
+]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ git clone gt[K[Khttps://github.com/yuchengliu0519/lab1.git
+Cloning into 'lab1'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)   [Kremote: Counting objects:  66% (2/3)   [Kremote: Counting objects: 100% (3/3)   [Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+]0;~
+[32muser@LAPTOP-LF0O0LGH [33m~[0m
+$ exit
+
+Script done on 2019年03月 2日 上午 11:03:15
